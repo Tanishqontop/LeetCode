@@ -10,7 +10,7 @@ public:
             int currWater = w*ht;
             maxWater= max(maxWater, currWater);
 
-            height[lp] < height[rp] ? lp++ : rp--; 
+            height[lp] < height[rp] ? lp++ : rp--; //  kyuki sirf minheight wala pointer hi sb control krta hi waterContainer capacity
         }
         return maxWater;
     }
